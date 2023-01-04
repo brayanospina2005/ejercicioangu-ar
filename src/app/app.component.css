@@ -1,0 +1,8 @@
+h1 {
+  text-align: center;
+}
+.tasks-list {
+  width: 500px;
+  margin: auto;
+  max-width: 100vw;
+}

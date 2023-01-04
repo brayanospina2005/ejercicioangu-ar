@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+  tasksList: string[] =['texto-area-1', 'texto-area-2', 'texto-area-3'];
+  eliminarTask(taskIndex:number){
+    this.tasksList.splice(taskIndex, 1);
+  }
 }
